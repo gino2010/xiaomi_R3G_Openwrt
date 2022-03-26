@@ -18,3 +18,10 @@ https://github.com/P3TERX/Actions-OpenWrt
 https://github.com/coolsnowwolf/lede
 
 https://github.com/kenzok8/openwrt-packages
+
+# openwrt official rom
+建议先刷 [openwrt](https://downloads.openwrt.org/) 标准版本，例如：
+
+https://downloads.openwrt.org/releases/21.02.2/targets/ramips/mt7621/
+
+然后在openwrt中刷入release中的 sysupgrade 文件
