@@ -14,7 +14,7 @@
 
 具体配置可以修改：config/lite.config
 
-##Reference
+## Reference
 * https://github.com/P3TERX/Actions-OpenWrt
 * https://github.com/coolsnowwolf/lede
 * https://github.com/kenzok8/openwrt-packages
