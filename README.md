@@ -3,21 +3,21 @@
 
 基于lean的openwrt与kanzok8的openwrt-packages
 
-主分支仅集成passwall(xray core)、AdGuard Home、ShadowSocksR Plus+（xray core)、SmartDNS
+## Full Version
+主分支仅集成passwall(xray core)、ShadowSocksR Plus+（xray core)、SmartDNS 和 集成usb支持，aria2，samba，minidlna
+并包含例如Python、解压缩、加密等在内的package
 
-旁路由分支，集成usb支持，aria2，samba，minidlna
+具体配置可以修改：config/full.config
 
-请在release自行下载
+## Lite Version 
+主分支仅集成passwall(xray core)、ShadowSocksR Plus+（xray core)、SmartDNS。目的只针对网络需求
 
-不提供刷机教程，请利用互联网自行寻找
+具体配置可以修改：config/lite.config
 
-Sources:
-
-https://github.com/P3TERX/Actions-OpenWrt
-
-https://github.com/coolsnowwolf/lede
-
-https://github.com/kenzok8/openwrt-packages
+##Reference
+* https://github.com/P3TERX/Actions-OpenWrt
+* https://github.com/coolsnowwolf/lede
+* https://github.com/kenzok8/openwrt-packages
 
 # openwrt official rom
 建议先刷 [openwrt](https://downloads.openwrt.org/) 标准版本，例如：
